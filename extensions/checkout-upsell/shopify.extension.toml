@@ -3,7 +3,7 @@
 
 # The version of APIs your extension will receive. Learn more:
 # https://shopify.dev/docs/api/usage/versioning
-api_version = "2024-10"
+api_version = "2025-07"
 
 [[extensions]]
 name = "checkout-upsell"
@@ -43,6 +43,10 @@ api_access = true
 [[extensions.metafields]]
 namespace = "checkout_offer"
 key = "upsell_collection"
+
+[[extensions.metafields]]
+namespace = "checkout_offer"
+key = "heading_text"
 
 # Defines settings that will be collected from merchants installing
 # your extension. Learn more:
